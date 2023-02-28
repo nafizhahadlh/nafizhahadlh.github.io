@@ -1,0 +1,77 @@
+User@belongtodila MINGW64 ~/Documents/WWD
+$ mkdir WWD
+mkdir: cannot create directory ‘WWD’: File exists
+
+User@belongtodila MINGW64 ~/Documents/WWD
+$ cd WWD
+
+User@belongtodila MINGW64 ~/Documents/WWD/WWD
+$ touch index.html
+
+User@belongtodila MINGW64 ~/Documents/WWD/WWD
+$ git init
+Initialized empty Git repository in C:/Users/User/Documents/WWD/WWD/.git/
+
+User@belongtodila MINGW64 ~/Documents/WWD/WWD (master)
+$ git add .
+
+User@belongtodila MINGW64 ~/Documents/WWD/WWD (master)
+$ git commit -m "nafi."
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'User@belongtodila.(none)')
+
+User@belongtodila MINGW64 ~/Documents/WWD/WWD (master)
+$ git config --global user.email dilalsm756@gmail.com
+
+User@belongtodila MINGW64 ~/Documents/WWD/WWD (master)
+$ git commit -m "nafi."
+[master (root-commit) 9dcdeb6] nafi.
+ 5 files changed, 160 insertions(+)
+ create mode 100644 about.html
+ create mode 100644 index.css
+ create mode 100644 index.html
+ create mode 100644 index.js
+ create mode 100644 loginhtml
+
+User@belongtodila MINGW64 ~/Documents/WWD/WWD (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+User@belongtodila MINGW64 ~/Documents/WWD/WWD (master)
+$ git remote add origin https://github.com/nafizhahadlh/nafizhahadlh.github.io.git
+
+User@belongtodila MINGW64 ~/Documents/WWD/WWD (master)
+$ git remote -v
+origin  https://github.com/nafizhahadlh/nafizhahadlh.github.io.git (fetch)
+origin  https://github.com/nafizhahadlh/nafizhahadlh.github.io.git (push)
+
+User@belongtodila MINGW64 ~/Documents/WWD/WWD (master)
+$ git branch -M main
+
+User@belongtodila MINGW64 ~/Documents/WWD/WWD (main)
+$ git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 2.18 KiB | 744.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/nafizhahadlh/nafizhahadlh.github.io.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+User@belongtodila MINGW64 ~/Documents/WWD/WWD (main)
+$
