@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <title>Digital.CV</title>
+    <p style="font-size:50px;">hello welcome to nafi's coffe shop</p>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    available menu for today:
+    <a href="about.html"></a>
+    <img src="eef0867b08201be73a3ec1fb792eac45.jpg" alt="eef0867b08201be73a3ec1fb792eac45.jpg" width="104" height="142">
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+      <!-- This is a comment -->
+<p>sale only for nafi's mates.</p>
+<!-- Comments are not displayed in the browser -->
+
+</body>
+</html>
